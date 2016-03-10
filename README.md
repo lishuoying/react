@@ -7,6 +7,21 @@
 - [Webpack Dev Server](http://webpack.github.io/docs/webpack-dev-server.html)
 - [React Transform](https://github.com/gaearon/react-transform-hmr) 可以让 React 组件局部自动实时更新（而不是刷新页面）
 
+## 使用方法
+```
+git clone https://github.com/minooo/webpack-es6-react.git
+cd webpack-es6-react 
+npm install
+npm start
+打开 http://localhost:5000/
+```
+
+> 注意：package.json 的 scripts 中内置了三个命令
+> `start` 用于开发模式，方便调试，撸码
+> `build` 开发完毕后，就可以打包文件了，当然这个模板足够简单，不能应用于实际生产中，这里只是一个示范。
+> `lint` 检测你的js代码是否规范。
+
+
 ## package.json 中的 包/库 部分说明
 - `babel-core` babel6 的基础模块
 - `babel-eslint` [ESLint](https://github.com/eslint/eslint) 是前端JS代码检测利器。而 [babel-eslint](http://npm.taobao.org/package/babel-eslint) 则允许你检测所有的 Babel 代码。
@@ -19,6 +34,7 @@
 - `eslint` JavaScript 语法检测利器：分析出你代码潜在的错误和非标准用法。
 - `eslint-plugin-react`  ESLint 中关于 React 语法检测的插件。
 - `react-transform-hmr` 一个 React 转换装置，该装置通过引用 Hot Module Replacement API 使热重载 React 的类成为可能。
+- `react-transform-catch-errors` 呈现你 React 组件的错误信息。
 - `webpack-dev-server` 为 wepack app 提供一个服务器，如果你的代码有任何变化，浏览器将自动刷新显示，极大的方便前期开发。
 - `babel-runtime` Babel 自带的运行环境。
 
