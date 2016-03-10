@@ -1,3 +1,7 @@
+> 这是一个基础的，综合了webpack，es6，react的学习模板。
+> 
+> 本模板也方便你对 react 生态圈中其他相关知识的学习，比如你想学习 `react-router`,`redux` 或是 `css-modules`都可以以此模板为基础进行延伸学习。
+
 # webpack-es6-react
 本模板应用了以下技术
 
@@ -6,6 +10,10 @@
 - [Webpack](http://webpack.github.io/) 我们的构建工具
 - [Webpack Dev Server](http://webpack.github.io/docs/webpack-dev-server.html)
 - [React Transform](https://github.com/gaearon/react-transform-hmr) 可以让 React 组件局部自动实时更新（而不是刷新页面）
+
+## Demo
+
+![react-transform-boilerplate](https://raw.githubusercontent.com/minooo/test/master/demo.gif)
 
 ## 使用方法
 ```
