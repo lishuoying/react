@@ -1,6 +1,6 @@
 > 这是一个基础的，综合了webpack，es6，react的学习模板。
 > 
-> 本模板也方便你对 react 生态圈中其他相关知识的学习，比如你想学习 `react-router`,`redux` 或是 `css-modules`都可以以此模板为基础进行延伸学习。
+> 本模板也方便你对 react 生态圈中其他相关知识的学习，比如你想学习 `react-router`,`redux` 或是 `css-modules`都可以以此模板为基础进行延伸学习。甚至，你可以单纯的来学习es6!
 
 # webpack-es6-react
 本模板应用了以下技术
