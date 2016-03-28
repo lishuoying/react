@@ -25,9 +25,9 @@ npm start
 ```
 
 > 注意：package.json 的 scripts 中内置了三个命令
-> `start` 用于开发模式，方便调试，撸码。
-> `build` 开发完毕后，就可以打包文件了。
-> `lint` 检测你的js代码是否规范。
+> - `start` 用于开发模式，方便调试，撸码。
+> - `build` 开发完毕后，就可以打包文件了。
+> - `lint` 检测你的js代码是否规范。
 
 
 ## package.json 中的 包/库 部分说明
